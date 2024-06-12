@@ -2,6 +2,9 @@
 
 A simple currency converter application built with React, utilizing a custom hook to fetch and convert currency rates from an external API.
 
+![Currency Converter Demo](pic.jpg)
+
+
 ## Table of Contents
 - [Features](#features)
 - [Demo](#demo)
