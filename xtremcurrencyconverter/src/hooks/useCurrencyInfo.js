@@ -12,7 +12,7 @@ function useCurrencyInfo(currency){
         .catch(error => console.log(error))
     }
     , [currency])
-    console.log(data)    
+      
 
     return data
 
