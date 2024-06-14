@@ -1,8 +1,35 @@
-# React + Vite
+# Card Theme Changer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple Card Theme Changer application built with React. It demonstrates how to use the Context API to manage and switch between different themes.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Installation
+
+To get started with the project, follow these steps:
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/TayyabXtreme/ReactPracticeProjects.git
+    ```
+2. Navigate into the project directory:
+    ```sh
+    cd themesswitcheroncontextapi
+    ```
+3. Install the dependencies:
+    ```sh
+    npm install
+    ```
+
+## Usage
+
+To run the project locally:
+
+```sh
+npm start
