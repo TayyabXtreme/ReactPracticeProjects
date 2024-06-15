@@ -8,8 +8,12 @@ function App() {
   const [todos, setTodos] = useState([])
 
   const addTodo=(todo)=>{
+    var data = {
+      id: Date.now(),
+      ...todo
+    }
 
-    setTodos((prev)=>[{id:Date.now(),...todo},...prev])
+    setTodos((prev)=>[...prev,data])
 
   }
 
@@ -67,13 +71,11 @@ function App() {
      } */}
 
 
-
-
       {
 
       todos.map((todo,i)=>(
-        <div key={i}>
-        <TodoList todo={todo} />
+        <div >
+        <TodoList todo={todos[i]} />
         </div>
       ))
 

@@ -16,7 +16,9 @@ const TodoForm = () => {
     <div className='bg-gray-700 text-white mt-4 p-10'>
 
 <div className="flex mt-4">
-                <input className="shadow appearance-none border rounded w-full py-2 px-3 mr-4 text-grey-darker text-black"
+                <input 
+                onKeyDown={(e)=>e.key==='Enter' && add()}
+                className="shadow appearance-none border rounded w-full py-2 px-3 mr-4 text-grey-darker text-black"
                  placeholder="Add Todo"
                  value={todo}
                  onChange={(e)=>settodo(e.target.value)}
