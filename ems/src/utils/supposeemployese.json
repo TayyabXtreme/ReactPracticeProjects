@@ -1,0 +1,147 @@
+[
+  {
+    "id": 1,
+    "email": "employee1@example.com",
+    "password": "123",
+    "tasks": [
+      {
+        "active": true,
+        "newTask": true,
+        "completed": false,
+        "failed": false,
+        "title": "Update client database",
+        "description": "Update the client database with new entries from the sales team.",
+        "date": "2025-01-06",
+        "category": "Database Management"
+      },
+      {
+        "active": false,
+        "newTask": false,
+        "completed": true,
+        "failed": false,
+        "title": "Submit financial report",
+        "description": "Prepare and submit the quarterly financial report.",
+        "date": "2025-01-05",
+        "category": "Finance"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "email": "employee2@example.com",
+    "password": "123",
+    "tasks": [
+      {
+        "active": true,
+        "newTask": true,
+        "completed": false,
+        "failed": false,
+        "title": "Develop feature X",
+        "description": "Work on the new feature X for the mobile application.",
+        "date": "2025-01-07",
+        "category": "Development"
+      },
+      {
+        "active": false,
+        "newTask": false,
+        "completed": false,
+        "failed": true,
+        "title": "Fix issue #123",
+        "description": "Resolve the reported bug in the dashboard.",
+        "date": "2025-01-04",
+        "category": "Bug Fixing"
+      },
+      {
+        "active": true,
+        "newTask": true,
+        "completed": false,
+        "failed": false,
+        "title": "Prepare presentation",
+        "description": "Prepare slides for the client pitch.",
+        "date": "2025-01-08",
+        "category": "Presentation"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "email": "employee3@example.com",
+    "password": "123",
+    "tasks": [
+      {
+        "active": true,
+        "newTask": true,
+        "completed": false,
+        "failed": false,
+        "title": "Design mockups",
+        "description": "Create mockups for the upcoming project.",
+        "date": "2025-01-09",
+        "category": "Design"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "email": "employee4@example.com",
+    "password": "123",
+    "tasks": [
+      {
+        "active": false,
+        "newTask": false,
+        "completed": true,
+        "failed": false,
+        "title": "Complete documentation",
+        "description": "Finalize the API documentation for the project.",
+        "date": "2025-01-03",
+        "category": "Documentation"
+      },
+      {
+        "active": true,
+        "newTask": true,
+        "completed": false,
+        "failed": false,
+        "title": "Customer feedback analysis",
+        "description": "Analyze feedback from recent surveys.",
+        "date": "2025-01-10",
+        "category": "Analysis"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "email": "employee5@example.com",
+    "password": "123",
+    "tasks": [
+      {
+        "active": true,
+        "newTask": true,
+        "completed": false,
+        "failed": false,
+        "title": "Research competitors",
+        "description": "Gather data on market competitors.",
+        "date": "2025-01-07",
+        "category": "Research"
+      },
+      {
+        "active": false,
+        "newTask": false,
+        "completed": false,
+        "failed": true,
+        "title": "Implement feature Y",
+        "description": "Work on implementing feature Y for the system.",
+        "date": "2025-01-05",
+        "category": "Development"
+      },
+      {
+        "active": true,
+        "newTask": true,
+        "completed": false,
+        "failed": false,
+        "title": "Team meeting preparation",
+        "description": "Prepare agenda for the team meeting.",
+        "date": "2025-01-08",
+        "category": "Management"
+      }
+    ]
+  }
+]
