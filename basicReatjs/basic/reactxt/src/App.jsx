@@ -1,24 +1,25 @@
 import React from 'react'
 import { useState } from 'react';
+import Hello from './components/Hello';
+import NavBar from './components/NavBar';
+import Footer from './components/Footer';
+import Card from './components/Card';
 
 const App = () => {
-  const sumbitHandler = (e) => {
-    e.preventDefault();
-    console.log('submit')
-  }
+  
   const [userName, setuserName] = useState("")
   return (
-   <div>
-    <form onSubmit={(e)=>sumbitHandler(e)}>
-      <input 
-      className='px-4  rounded  text-black py-3 text-xl m-5' 
-      type="text"
-      value={userName}
-      onChange={(e)=>setuserName( e.target.value)}
-      />
-      <input className='px-4 py-3 text-xl font-semibold bg-emerald-600 border-1 rounded' type="submit" />
-    </form>
+  
+   <>
+   
+   <NavBar/>
+   {/* <h1 className='h-svh'></h1> */}
+   <div className='flex'> 
+   <Card name="Tayyab" description={"This is description"}/>  
+   <Card name="Anees" description={"This is description"}/>
    </div>
+   <Footer/>
+   </>
   )
 }
 
