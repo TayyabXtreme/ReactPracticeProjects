@@ -8,7 +8,11 @@ const CreateTask = () => {
       date: '',
       asingTo: '',
       category: '',
-      description: ''
+      description: '',
+      active:false,
+      newTask: true,
+      failed:false,
+      completed:false,
 
     }
   )

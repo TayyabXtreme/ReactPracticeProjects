@@ -1,10 +1,11 @@
 import React, { useState } from 'react'
 
 
-const Header = () => {
+const Header = ({changeUser}) => {
   const logOutUser=()=>{
     localStorage.setItem('loggedInUser','')
-    window.location.reload()
+    changeUser(null)
+    // window.location.reload()
   }
  
   return (
