@@ -3,10 +3,18 @@
     "id": 1,
     "email": "employee1@example.com",
     "password": "123",
+    "firstName": "Ali",
+    "taskNumbers": {
+      "totalTasks": 2,
+      "active": 1,
+      "newTask": 1,
+      "completed": 0,
+      "failed": 0
+    },
     "tasks": [
       {
         "active": true,
-        "newTask": true,
+        "newTask": false,
         "completed": false,
         "failed": false,
         "title": "Update client database",
@@ -16,8 +24,8 @@
       },
       {
         "active": false,
-        "newTask": false,
-        "completed": true,
+        "newTask": true,
+        "completed": false,
         "failed": false,
         "title": "Submit financial report",
         "description": "Prepare and submit the quarterly financial report.",
@@ -30,10 +38,18 @@
     "id": 2,
     "email": "employee2@example.com",
     "password": "123",
+    "firstName": "Fatima",
+    "taskNumbers": {
+      "totalTasks": 3,
+      "active": 2,
+      "newTask": 1,
+      "completed": 0,
+      "failed": 0
+    },
     "tasks": [
       {
         "active": true,
-        "newTask": true,
+        "newTask": false,
         "completed": false,
         "failed": false,
         "title": "Develop feature X",
@@ -42,24 +58,24 @@
         "category": "Development"
       },
       {
-        "active": false,
-        "newTask": false,
-        "completed": false,
-        "failed": true,
-        "title": "Fix issue #123",
-        "description": "Resolve the reported bug in the dashboard.",
-        "date": "2025-01-04",
-        "category": "Bug Fixing"
-      },
-      {
         "active": true,
-        "newTask": true,
+        "newTask": false,
         "completed": false,
         "failed": false,
         "title": "Prepare presentation",
         "description": "Prepare slides for the client pitch.",
         "date": "2025-01-08",
         "category": "Presentation"
+      },
+      {
+        "active": false,
+        "newTask": true,
+        "completed": false,
+        "failed": false,
+        "title": "Fix issue #123",
+        "description": "Resolve the reported bug in the dashboard.",
+        "date": "2025-01-04",
+        "category": "Bug Fixing"
       }
     ]
   },
@@ -67,9 +83,17 @@
     "id": 3,
     "email": "employee3@example.com",
     "password": "123",
+    "firstName": "Hassan",
+    "taskNumbers": {
+      "totalTasks": 1,
+      "active": 0,
+      "newTask": 1,
+      "completed": 0,
+      "failed": 0
+    },
     "tasks": [
       {
-        "active": true,
+        "active": false,
         "newTask": true,
         "completed": false,
         "failed": false,
@@ -84,7 +108,25 @@
     "id": 4,
     "email": "employee4@example.com",
     "password": "123",
+    "firstName": "Zara",
+    "taskNumbers": {
+      "totalTasks": 2,
+      "active": 1,
+      "newTask": 0,
+      "completed": 1,
+      "failed": 0
+    },
     "tasks": [
+      {
+        "active": true,
+        "newTask": false,
+        "completed": false,
+        "failed": false,
+        "title": "Customer feedback analysis",
+        "description": "Analyze feedback from recent surveys.",
+        "date": "2025-01-10",
+        "category": "Analysis"
+      },
       {
         "active": false,
         "newTask": false,
@@ -94,16 +136,6 @@
         "description": "Finalize the API documentation for the project.",
         "date": "2025-01-03",
         "category": "Documentation"
-      },
-      {
-        "active": true,
-        "newTask": true,
-        "completed": false,
-        "failed": false,
-        "title": "Customer feedback analysis",
-        "description": "Analyze feedback from recent surveys.",
-        "date": "2025-01-10",
-        "category": "Analysis"
       }
     ]
   },
@@ -111,10 +143,18 @@
     "id": 5,
     "email": "employee5@example.com",
     "password": "123",
+    "firstName": "Bilal",
+    "taskNumbers": {
+      "totalTasks": 3,
+      "active": 2,
+      "newTask": 1,
+      "completed": 0,
+      "failed": 0
+    },
     "tasks": [
       {
         "active": true,
-        "newTask": true,
+        "newTask": false,
         "completed": false,
         "failed": false,
         "title": "Research competitors",
@@ -123,24 +163,24 @@
         "category": "Research"
       },
       {
-        "active": false,
-        "newTask": false,
-        "completed": false,
-        "failed": true,
-        "title": "Implement feature Y",
-        "description": "Work on implementing feature Y for the system.",
-        "date": "2025-01-05",
-        "category": "Development"
-      },
-      {
         "active": true,
-        "newTask": true,
+        "newTask": false,
         "completed": false,
         "failed": false,
         "title": "Team meeting preparation",
         "description": "Prepare agenda for the team meeting.",
         "date": "2025-01-08",
         "category": "Management"
+      },
+      {
+        "active": false,
+        "newTask": true,
+        "completed": false,
+        "failed": false,
+        "title": "Implement feature Y",
+        "description": "Work on implementing feature Y for the system.",
+        "date": "2025-01-05",
+        "category": "Development"
       }
     ]
   }
