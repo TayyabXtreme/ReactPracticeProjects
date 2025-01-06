@@ -1,9 +1,22 @@
-import React, { useContext } from 'react'
+import React, { useContext, useEffect } from 'react'
 import { AuthContext } from '../../context/AuthProvider'
 
 const AllTask = () => {
-    const authData=useContext(AuthContext)
-    console.log(authData.employee)
+    const [userDatas,setUserDatas]=useContext(AuthContext)
+    console.log(userDatas.employee)
+    if (!userDatas || !Array.isArray(userDatas)) {
+        return <h1 className='text-white'>No Task Found</h1>
+
+    }
+
+    
+    console.log(userDatas,"abhi-------------------------------")
+
+    useEffect(()=>{
+        console.log(userDatas)
+    }
+    ,[userDatas,setUserDatas])
+
   return (
 
     
@@ -18,7 +31,7 @@ const AllTask = () => {
          </div>
          <div id='tasklist' className='h-[80%] overflow-y-auto'>
          {
-        authData.employee.map((elem,id)=>{
+        userDatas.map((elem,id)=>{
             return (
                 <div className={`  bg-transparent border-[1px] border-emerald-600 mb-2 py-2 px-4 flex justify-between rounded overflow-y-auto`} key={id}>
                     <h2 className='w-1/5  text-lg font-bold '>{elem.firstName}</h2>

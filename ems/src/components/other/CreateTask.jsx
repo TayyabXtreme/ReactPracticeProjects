@@ -1,6 +1,10 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { AuthContext } from '../../context/AuthProvider'
 
 const CreateTask = () => {
+
+  const [userDatas,setUserDatas]=useContext(AuthContext)
+ 
 
   const [task, setTask] = React.useState(
     {
@@ -20,6 +24,20 @@ const CreateTask = () => {
   const sumbitHandler= (e)=>{
     e.preventDefault();
     console.log(task)
+    const data= JSON.parse(localStorage.getItem('employe'))
+    console.log("Employees",data)
+    data.forEach((emp)=>{
+      console.log(emp.firstName)
+      if(emp.firstName==task.asingTo){
+        console.log("Found----------------------------------")
+        emp.tasks.push(task)
+        emp.taskNumbers.newTask+=1
+        emp.taskNumbers.totalTasks+=1
+        localStorage.setItem('employe',JSON.stringify(data))
+        setUserDatas({data})
+
+      }
+    })
 
   }
   return (
