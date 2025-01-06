@@ -15,7 +15,7 @@ body {
 }
 
 /* Basic styling for headers */
-h1, h2, h3, h4, h5, h6 {
+ h2, h3, h4, h5, h6 {
     margin-bottom: 1rem;
     font-weight: bold;
 }
@@ -89,4 +89,21 @@ button:hover {
         rotate: 360deg;
 
     }
+}
+
+h1{
+    font-size: 100px;
+    font-weight: bold;
+}
+
+h1::after{
+    content: 'By CSS';
+    color: red;
+    font-size: 20px;
+}
+
+h1::before{
+    content: 'Hello World';
+    color: royalblue;
+    font-size: 20px;
 }
