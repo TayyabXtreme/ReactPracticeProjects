@@ -1,0 +1,50 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+/* Set a default font and background color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #fff;
+  
+}
+
+
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(78, 189, 226);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(27, 163, 209);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box{
+    width: 250px;
+    height: 250px;
+    background-color: crimson;
+    border-radius: 10px;
+    
+}
