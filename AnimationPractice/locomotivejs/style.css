@@ -1,0 +1,46 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    
+    background-color: rgb(53, 51, 51)
+    
+}
+
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(104, 104, 104);
+    
+
+}
+
+
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(105, 90, 90);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#page3{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(32, 24, 24);
+
+}
+
+#box{
+    height: 300px;
+    width: 300px;
+    background-color: crimson;
+    border-radius: 10px;
+
+}
