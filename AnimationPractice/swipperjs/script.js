@@ -1,0 +1,1 @@
+var swipter=new Swiper('.swiper')
